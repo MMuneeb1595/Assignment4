@@ -1,0 +1,193 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* head of the page css */
+main{
+    padding: 0.6em 10em;
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+h1 span{
+    color: #ff1900;
+}
+ul{
+    display: flex;
+    /* padding: 0px 10px; */
+}
+ul li{
+    padding: 0px 20px;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+select{
+    background-color: black;
+    color: white;
+    border: none;
+}
+select:focus{
+    outline: none;
+}
+.content{
+    padding:2em 0em;
+}
+p{ 
+    text-transform: capitalize;
+    font-size:56px;
+}
+.owner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+}
+.self{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+}
+.self div{
+    background: url(./Female-enjoy.jpg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.self span{
+    padding: 0px 10px;
+    color: gray;
+}
+.time{
+    padding: 0px 10px;
+    color: gray;
+}
+.calander{
+    padding: 0px 10px;
+    color: gray;
+}
+.content-img{
+    padding: 1em 10em;
+}
+.content-img img{
+    width: 100%;
+    max-height: 370px;;
+}
+.content-img h1{
+    text-transform: capitalize;
+    color: black;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+.content-para{
+    font-size:16px;
+    text-align: justify;
+}
+.content-para-second{
+    font-size:16px;
+    padding: 10px 0px;
+    text-align: justify;
+}
+.main-content{
+    padding: 0em 10em;
+}
+.main-content .content{
+    padding:0px;
+}
+.qoutes p{
+    font-size: 15px;
+    margin:1.5em 3em;
+    line-height:1.5;
+    padding: 0px 5px;
+    text-align: justify;
+    border-left: 5px solid black;
+}
+.main-content-second{
+    padding: 0em 10em;
+}
+.first, .second{
+    font-size: 16px;
+    margin:20px 0px;
+    text-align: justify;
+}
+.bottom-nav{
+    padding: 2em 10em;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-nav .left ul li{
+    padding-left: 0px;
+}
+.left ul li a{
+    color: black;
+}
+.right ul li{
+    padding-right: 0px;
+}
+.icon{
+    color: black;
+}
+footer{
+    background-color: black;
+    padding:1.2em 10em;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+.foot .footer-left{
+    width: 33%;
+}
+.foot .footer-center{
+    width: 34%;
+}
+.foot .footer-right{
+    width: 33%;
+}
+.form-one{
+    margin:30px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.form-img{
+    width: 60%;
+}
+.form-img img{
+    width: 100%;
+}
+.form-para{
+    color: white;
+    padding:0px 10px;
+}
+.footer-right .right{
+    margin: 30px 0px;
+}
+.footer-right li{
+    padding:0px 40px 10px 10px;
+}
+.footer-right a{
+    color: white;
+}
+.copy-right{
+    text-align: center;
+    color: white;
+}
